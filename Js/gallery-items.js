@@ -11,6 +11,7 @@ const galleryItems = [
       'https://cdn.pixabay.com/photo/2023/11/14/15/46/nikon-8388022__340.jpg',
     original:
       'https://cdn.pixabay.com/photo/2023/11/14/15/46/nikon-8388022_1280.jpg',
+      
     description: 'Фотокамера Nikon',
   },
   {

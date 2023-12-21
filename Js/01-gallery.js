@@ -29,6 +29,7 @@ function onEscPress(event) {
 }
 refs.lightboxOverlayEl.addEventListener('click', closeModal);
 
+
 function onGalleryItemClick(event) {
   event.preventDefault();
 
