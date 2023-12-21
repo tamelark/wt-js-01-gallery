@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Image gallery</title>
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <p><a class="arrow" href="index.html">←</a></p>
+    <p><a class="arrow" href="./index.html">←</a></p>
 
-    <!-- До цього списку додаються елементи галереї -->
     <ul class="gallery"></ul>
-
-     <!--
-     Модальне вікно для повнорозмірного зображення
-     Щоб відкрити, необхідно додати на div.lightbox CSS-клас is-open
-    -->
 
     <div class="lightbox js-lightbox">
       <div class="lightbox__overlay"></div>
@@ -30,10 +24,11 @@
         type="button"
         class="lightbox__button"
         data-action="close-lightbox"
-      ></button>
+      >
+        <svg src='./images/icon-close.svg'></svg></button>
     </div>
 
-    <script src="js/01-gallery.js" type="module"></script>
-    <script src="js/gallery-items.js"type="module"></script>
+    <script src="./js/01-gallery.js" type="module"></script>
+    <script src="./js/gallery-items.js"type="module"></script>
   </body>
 </html>
